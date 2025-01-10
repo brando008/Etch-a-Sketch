@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  height: 700px;
+  width: 700px;
+}
+.box {
+  border: 0.1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box.hovered {
+  background-color: red;
+  opacity: 0.1;
+}
